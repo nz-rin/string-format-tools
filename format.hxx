@@ -1,5 +1,4 @@
 
-#include <cstring>
 #include <string>
 
 namespace pad{
