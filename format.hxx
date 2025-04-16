@@ -68,4 +68,24 @@ namespace format{
 		return fs;
 	}
 
+	inline void uppercase(std::string &str){
+		auto start = str.cbegin();
+		for(size_t i = 0; i < str.size(); i++){
+			if(str[i] >= 'a' && str[i] <= 'z'){
+				// 32 = 'a' - 'A', shift down by 32 to get uppercase
+				str[i] = str[i] - 32;
+			}
+		}
+	}
+
+	inline void lowercase(std::string &str){
+		auto start = str.cbegin();
+		for(size_t i = 0; i < str.size(); i++){
+			if(str[i] >= 'A' && str[i] <= 'Z'){
+				// 32 = 'a' - 'A', shift up by 32 to get lowercase
+				str[i] = str[i] + 32;
+			}
+		}
+	}
+
 };

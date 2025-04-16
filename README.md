@@ -13,6 +13,8 @@ Include the headerfile and use the namespace to assist formating console output.
 - NOTE, clear and reset are the same ANSI value used to clear formatting from the terminal, be sure to input them into streams/strings when you done with the formatting.
 - formated_string is just a typedef for std::string for conviniece.
 
+- supports uppercase and lowercase for strings, directly modifies the passed in string.
+
 ## Example
 - formated_string fs = format::format_string("Bold and underlind", {format::bold, format::underlind}).
   will return a string that is bold and underlined when rendered in the terminal.
