@@ -8,7 +8,7 @@ int main(){
 
 	pad::left(str, ' ', end.size());
 	format::uppercase(end);
-	std::cout << format::format_string(str, {format::underline, format::fg_yellow}) << format::clear<< '\n';
-	std::cout << format::bold << format::fg_green << end << format::clear << std::endl;
+	std::cout << format::format_string(str, {ANSI_UNDERLINE, ANSI_FG_YELLOW}) << ANSI_CLEAR<< '\n';
+	std::cout << ANSI_BOLD << ANSI_FG_GREEN << end << ANSI_CLEAR << std::endl;
 	return 0;
 }

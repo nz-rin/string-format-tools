@@ -1,0 +1,5 @@
+*
+!*.cxx
+!*.hxx
+!.gitignore
+!*.sh

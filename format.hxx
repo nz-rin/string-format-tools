@@ -26,37 +26,37 @@ namespace pad{
 namespace format{
 	typedef const char *ANSI;
 
-	static ANSI clear			= "\033[0m";
-	static ANSI reset   	    = "\033[0m";
+	#define ANSI_CLEAR			 "\033[0m"
+	#define ANSI_RESET   	     "\033[0m"
 
-	//Text styling
-	static ANSI bold			="\033[1m";
-	static ANSI dim				="\033[2m";
-	static ANSI italic			="\033[3m";
-	static ANSI underline		="\033[4m";
-	static ANSI blink			="\033[5m";
-	static ANSI invert			="\033[7m";
-	static ANSI hidden			="\033[8m";
+	//Text sTYLING
+	#define ANSI_BOLD			"\033[1m"
+	#define ANSI_DIM			"\033[2m"
+	#define ANSI_ITALIC			"\033[3m"
+	#define ANSI_UNDERLINE		"\033[4m"
+	#define ANSI_BLINK			"\033[5m"
+	#define ANSI_INVERT			"\033[7m"
+	#define ANSI_HIDDEN			"\033[8m"
 
-	//Foreground
-	static ANSI fg_black		="\033[30m";
-	static ANSI fg_red			="\033[31m";
-	static ANSI fg_green		="\033[32m";
-	static ANSI fg_yellow		="\033[33m";
-	static ANSI fg_blue			="\033[34m";
-	static ANSI fg_magenta		="\033[35m";
-	static ANSI fg_cyan			="\033[36m";
-	static ANSI fg_white		="\033[37m";
+	//ForegrOUND
+	#define ANSI_FG_BLACK		"\033[30m"
+	#define ANSI_FG_RED			"\033[31m"
+	#define ANSI_FG_GREEN		"\033[32m"
+	#define ANSI_FG_YELLOW		"\033[33m"
+	#define ANSI_FG_BLUE		"\033[34m"
+	#define ANSI_FG_MAGENTA		"\033[35m"
+	#define ANSI_FG_CYAN		"\033[36m"
+	#define ANSI_FG_WHITE		"\033[37m"
 
-	//Background
-	static ANSI bg_black		="\033[40m";
-	static ANSI bg_red			="\033[41m";
-	static ANSI bg_green		="\033[42m";
-	static ANSI bg_yellow		="\033[43m";
-	static ANSI bg_blue			="\033[44m";
-	static ANSI bg_magenta		="\033[45m";
-	static ANSI bg_cyan			="\033[46m";
-	static ANSI bg_white		="\033[47m";
+	//BackgrOUND
+	#define ANSI_BG_BLACK		"\033[40m"
+	#define ANSI_BG_RED			"\033[41m"
+	#define ANSI_BG_GREEN		"\033[42m"
+	#define ANSI_BG_YELLOW		"\033[43m"
+	#define ANSI_BG_BLUE		"\033[44m"
+	#define ANSI_BG_MAGENTA		"\033[45m"
+	#define ANSI_BG_CYAN		"\033[46m"
+	#define ANSI_BG_WHITE		"\033[47m"
 
 	typedef std::string formated_string;
 
