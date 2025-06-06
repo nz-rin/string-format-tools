@@ -16,6 +16,6 @@ Include the headerfile and use the namespace to assist formating console output.
 - supports uppercase and lowercase for strings, directly modifies the passed in string.
 
 ## Example
-- formated_string fs = format::format_string("Bold and underlind", {format::bold, format::underlind}).
+- formated_string fs = format::format_string("Bold and underlind", {ANSI_BOLD, ANSI_UNDERLIND}).
   will return a string that is bold and underlined when rendered in the terminal.
-- std::cout << " Formatted string: " << fs << format::clear << std::endl;
+- std::cout << " Formatted string: " << fs << ANSI_CLEAR << std::endl;
