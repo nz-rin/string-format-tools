@@ -29,7 +29,7 @@ namespace format{
 	#define ANSI_CLEAR			 "\033[0m"
 	#define ANSI_RESET   	     "\033[0m"
 
-	//Text sTYLING
+	//Text styling
 	#define ANSI_BOLD			"\033[1m"
 	#define ANSI_DIM			"\033[2m"
 	#define ANSI_ITALIC			"\033[3m"
@@ -38,7 +38,7 @@ namespace format{
 	#define ANSI_INVERT			"\033[7m"
 	#define ANSI_HIDDEN			"\033[8m"
 
-	//ForegrOUND
+	//Foreground
 	#define ANSI_FG_BLACK		"\033[30m"
 	#define ANSI_FG_RED			"\033[31m"
 	#define ANSI_FG_GREEN		"\033[32m"
@@ -48,7 +48,7 @@ namespace format{
 	#define ANSI_FG_CYAN		"\033[36m"
 	#define ANSI_FG_WHITE		"\033[37m"
 
-	//BackgrOUND
+	//Background
 	#define ANSI_BG_BLACK		"\033[40m"
 	#define ANSI_BG_RED			"\033[41m"
 	#define ANSI_BG_GREEN		"\033[42m"
